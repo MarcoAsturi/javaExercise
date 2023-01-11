@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Quiz3",
+            "request": "launch",
+            "mainClass": "week5.Quiz3",
+            "projectName": "provaproject_c8b075c"
+        },
+        {
+            "type": "java",
             "name": "Launch Ex3",
             "request": "launch",
             "mainClass": "week3.Ex3",
@@ -98,8 +105,9 @@
             "type": "java",
             "name": "Launch Es0",
             "request": "launch",
-            "mainClass": "week1.Es0",
-            "projectName": "provaproject_c8b075c"
+            "mainClass": "src.Es0",
+            "projectName": "provaproject_c8b075c",
+            "args": "Hello, world"
         }
     ]
 }
