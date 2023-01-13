@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class W7E1Inversoins {
+public class W7E1Inversions {
 
     // return the number of inversion in the permutation a[]
     // given an array of integers, a pair of elements a[i] and a[j]
