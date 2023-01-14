@@ -1,5 +1,4 @@
 import java.util.Arrays;
-// DA RIVEDERE ULTIMA PARTE
 
 // takes an integer command-line argument m, followed by a sequence of
 // positive integer command-line arguments a1,a2,…,an,
@@ -53,8 +52,9 @@ public class W3E1DiscreteDistribution {
         // creates the last array of length m and arguments i
         int[] result = new int[m];
         for (int j = 0; j < m; j++) {
-            if (random[j] >= s[j] && random[j] < s[j + 1]) {
-                result[j] = j + 1;
+            for (int k = 0; k < s.length; k++)
+            if (random[j] >= s[k] && random[j] < s[k + 1]) {
+                result[j] = k + 1;
             }
         }
 
